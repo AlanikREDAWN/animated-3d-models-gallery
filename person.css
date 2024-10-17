@@ -1,0 +1,14 @@
+.person {
+    width: 100%;
+    /* height: 10%; */
+    /* margin: 100px; */
+  }
+.button {
+    background-color: thistle;
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    border-width: 5px;
+}
