@@ -40,4 +40,12 @@ const h3 = new Zdog.Box({
     translate: { z: 18, x: 10 },
 })
 
-ws.updateRend
+ws.updateRenderGraph()
+
+function animateModel() {
+    ws.rotate.y += 0.01
+    ws.updateRenderGraph()
+    requestAnimationFrame(animateModel)
+}
+
+animateModel()

@@ -17,4 +17,11 @@ const cube = new Zdog.Box({
 
 ws.updateRenderGraph()
 
-f
+function animateModel() {
+    ws.rotate.y += 0.01
+    ws.rotate.x += 0.01
+    ws.updateRenderGraph()
+    requestAnimationFrame(animateModel)
+}
+
+animateModel()

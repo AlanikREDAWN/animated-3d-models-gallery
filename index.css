@@ -1,2 +1,32 @@
 @font-face {
-    font-family: "FOT-Yur
+    font-family: "FOT-Yuruka Std";
+    src: url("https://cloud-kfx6znz9w-hack-club-bot.vercel.app/0fot-yuruka-std.ttf") format("truetype");
+   }
+.button {
+    background-color: thistle;
+    width: 200px;
+    height: 100px;
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    border-width: 10px;
+}
+h1 {
+    text-align: center;
+    font-family: FOT-Yuruka Std;
+    color: goldenrod;
+}
+a {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width: 200px;
+    height: 200px;
+    padding-left: 60px;
+    object-fit: none;
+}
+.gallery {
+    display: flex;
+    flex-direction: row;
+}
